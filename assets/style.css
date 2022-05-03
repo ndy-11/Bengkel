@@ -1,0 +1,25 @@
+.link {
+  position: fixed;
+  background-color: #32cd32;
+  border-radius: 5px;
+  padding: 6px;
+  left: 10px;
+  border-radius: 50%;
+  top: 65%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.1s ease-in-out;
+  z-index: 999;
+}
+
+.link:hover {
+  background-color: black;
+}
+
+a.cta_btn:hover {
+  background: #000;
+}
